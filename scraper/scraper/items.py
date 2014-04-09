@@ -5,7 +5,10 @@
 
 from scrapy.item import Item, Field
 
-class ScraperItem(Item):
+class Apartment(Item):
     # define the fields for your item here like:
     # name = Field()
-    pass
+    name = Field()
+    address = Field()
+    price = Field()
+    coords = Field()
